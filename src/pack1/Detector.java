@@ -19,6 +19,7 @@ public class Detector {
 		this.detectedFaces = new MatOfRect();
 		this.coloredImage = new Mat();
 		this.greyImage = new Mat();
+		// this is the path to cascade file
 		this.cascadeClassifier = new CascadeClassifier("E:\\Workspaces\\Eclipse Combine Workspace\\haarcascade_frontalface_alt.xml");
 	}
 
